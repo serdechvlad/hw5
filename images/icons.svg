@@ -52,9 +52,9 @@
         style="fill:var(--color1, #fff)" />
     </symbol>
     <symbol id="icon-chuvak" viewBox="0 0 32 32">
-      <path fill="#4d5ae5"
+      <path fill=""
         d="M16 16c4.42 0 8-3.58 8-8s-3.58-8-8-8-8 3.58-8 8 3.58 8 8 8zm0 4c-5.34 0-16 2.68-16 8v2c0 1.1.9 2 2 2h28c1.1 0 2-.9 2-2v-2c0-5.32-10.66-8-16-8z"
-        style="fill:var(--color2, #4d5ae5)" />
+        style="" />
     </symbol>
     <symbol id="icon-mail" viewBox="0 0 32 32">
       <path

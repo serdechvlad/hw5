@@ -623,12 +623,12 @@ cursor: pointer;
 }
 .svg-icon {
     position: absolute;
-    left: 16;
+    display: block;
+    left: 16px;
     top: 50%;
-    transform: translate(-50%);
+    transform: translateY(-50%);
     fill: #2E2F42
     left 16;
-    display: block;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
