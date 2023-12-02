@@ -637,7 +637,6 @@ cursor: pointer;
 .small-size {
     width: 13px;
     height: 15px;
-    transform: translateY(-50%);
 
 }
 .input-name:focus + .svg-icon {
@@ -650,6 +649,6 @@ cursor: pointer;
 .svg-icon:hover {
     fill: #4D5AE5;
 }
-/* phone */
+
 
 
