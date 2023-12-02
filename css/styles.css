@@ -542,8 +542,8 @@ cursor: pointer;
     .button-modal-close {
         position: absolute;
             top: 24px;
-            right: 24px;
-            width: 24px;
+            right: 8px;
+            width: 8px;
             height: 24px;
             border-radius: 50%;
             display: flex;
