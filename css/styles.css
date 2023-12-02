@@ -517,3 +517,26 @@ cursor: pointer;
    .footer-link:focus {
        background-color: #31D0AA;
    }
+
+        /* BACKDROP */
+        .backdrop {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(46, 47, 66, 0.40);
+            z-index: 999;
+        }
+    
+        .modal {
+            width: 408px;
+            height: 584px;
+            background-color: #FCFCFC;
+            border-radius: 4px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+    
+        }
