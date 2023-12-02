@@ -621,6 +621,9 @@ cursor: pointer;
 .input-name:focus {
     border-color: #4D5AE5;
 }
+.input-name:hover {
+    border-color: #4D5AE5;
+}
 .svg-icon {
     position: absolute;
     display: block;
@@ -630,5 +633,13 @@ cursor: pointer;
     fill: #2E2F42
     left 16;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 
+}
+.input-name:focus + .svg-icon {
+    fill: #4D5AE5;
+
+}
+.input-name:hover + .svg-icon {
+    fill: #4D5AE5;
 }
