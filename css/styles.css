@@ -681,40 +681,60 @@ cursor: pointer;
 .textarea:focus, .textarea:hover {
     border-color: #4D5AE5;
 }
+
+
 /* chechboxxxx */
-.checkbox-cont {
-    margin-bottom: 24px;
+
+.check-box-container {
+margin-bottom: 24px;
 }
-.checkbox-label {
-    color: #8e8f99;
+.check-text {
     font-size: 12px;
-    font-weight: 400;
     line-height: 1.17;
     letter-spacing: 0.04em;
-    margin-bottom: 0;
+    color: #8e8f99;
 }
-.checkbox-span {
+
+.check-bord {
     width: 16px;
     height: 16px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 2px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     display: inline-flex;
     align-items: center;
     justify-content: center;
     fill: transparent;
-    margin-right: 8px;
-    cursor: pointer;
 }
-.rules-link {
+
+.check-link-text {
     color: #4d5ae5;
-    font-family: Roboto, sans-serif;
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 1.33;
+}
+.modal-btn-send {
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    font-weight: 500;
+    line-height: 1.5;
     letter-spacing: 0.04em;
-    text-decoration-line: underline;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #4d5ae5;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.click {
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.check:checked+.check-text .check-bord {
+    background-color: #404bbf;
+    border: none;
+    fill: #f4f4fd;
 }
