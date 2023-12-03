@@ -735,13 +735,11 @@ cursor: pointer;
     border: none;
     fill: #f4f4fd;
 }
-.checkbox-box:checked>.checkbox-span {
-    border: none;
-}
-.checkbox-box:focus+.checkbox-label>.checkbox-span {
+
+/*.checkbox-box:focus+.checkbox-label>.checkbox-span {
     border: 1px solid #404bbf;
 
-}
+}*/
 .checkbox-link {
     color: #4d5ae5;
     font-family: Roboto, sans-serif;
