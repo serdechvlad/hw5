@@ -730,7 +730,7 @@ cursor: pointer;
     cursor: pointer;
 }
 
-.checkbox-box:checked+.checkbox-label>.checkbox-span {
+.checkbox-box:checked + .checkbox-label > .checkbox-span {
     background-color: #404bbf;
     border: none;
     fill: #f4f4fd;
@@ -738,6 +738,7 @@ cursor: pointer;
 
 .checkbox-box:focus+.checkbox-label>.checkbox-span {
     border: 1px solid #404bbf;
+
 }
 .checkbox-link {
     color: #4d5ae5;
@@ -788,9 +789,6 @@ cursor: pointer;
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
-
-
-
 .form-button:hover,
 .form-button:focus {
     background-color: #404bbf;
